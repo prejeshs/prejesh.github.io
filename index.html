@@ -1,1 +1,85 @@
+<html>
+                    <head>
+                                        <title> Form Controls</title>
+                    </head>
 
+                    <body> 
+                                        <p> <b> Please fill in the below form: </b></p>
+
+                                        <form action="/test.php" method="get">
+                                                            <!--Textbox-->
+                                                            First name: <input type="text" name="first_name"/>
+                                                            <br>
+                                                            Last name: <input type="text" name="last_name"/>
+                                                            <br>
+                                                            <br>
+
+                                                            <!--Username Password-->
+                                                            User ID: <input type="text" name="user"/>
+                                                            <br>
+                                                            Password: <input type="password" name="password"/>
+                                                            <br>
+                                                            <br>
+
+                                                            <!--Multiline Text-->
+                                                            Description: <br/>
+                                                            <textarea rows="5" cols="50" name="description">
+                                                                                Enter text here...
+                                                            </textarea>
+                                                            <br>
+                                                            <br>
+
+                                                            <!--Checkbox-->
+                                                            <input type="checkbox" name="check" value="on" checked>Maths
+                                                            <input type="checkbox" name="check2" value="on">Physics
+                                                            <br>
+                                                            <br>
+
+                                                            <!--Radio Button-->
+                                                            <input type="radio" name="rad" value="jan"> January
+                                                            <input type="radio" name="rad" value="feb"> February
+                                                            <br>
+                                                            <br>
+
+                                                            <!--Drop Down Menu-->
+                                                            <select name="dropdown">
+                                                                                <option value="Python" selected>Python</option>
+                                                                                <option value="Java">Java</option>
+                                                                                <option value="C">C</option>
+                                                            </select>
+                                                            <br>
+                                                            <br>
+
+                                                            <!--Single File Upload-->
+                                                            <input type="file" name="fileupload"/>
+                                                            <br>
+                                                            <br>
+                                                            <!--Multiple File Upload-->
+                                                            <input type="file" name="myfile" multiple>
+                                                            <br>
+                                                            <br>
+                                                            <!--Audio/Video Content-->
+                                                            <input type="file" name="fileupload" accept="audio/*,video/*,image/*"/>
+                                                            <br>
+                                                            <br>
+                                                            <!--Submit Button-->
+                                                            <input type="submit">
+                                                            <br>
+                                                            <br>
+
+                                                            <input type="submit" name="submit" value="Submit"/>
+                                                            <br>
+                                                            <br>
+                                                            <input type="reset" name="reset" value="Reset"/>
+                                                            <br>
+                                                            <br>
+                                                            <input type="button" name="ok" value="OK"/>
+                                                            <br>
+                                                            <br>
+                                                            <input type="image" name="imagebutton" src="shimla.jpeg"/>
+                                                            <br>
+                                                            <br>
+                                        </form>
+
+                    </body>
+</html>
